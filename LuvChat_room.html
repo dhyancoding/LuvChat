@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LuvChat Group</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Roboto+Slab&family=Satisfy&display=swap" rel="stylesheet">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div class="container">
+<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="LogOut()">Logout</button>
+	<center>
+		<h1 class="header">	
+			LuvChat	
+			<sup>
+				<img src="3073455.png">
+			</sup>
+		</h1>
+		<h2 class="color_white" id="user_name"></h2>
+		<div class="form-group input_div_room_page">
+			<label style="color: white; font-size: 20px;">Add Group:</label>
+<input type=text id="group_name" class="form-control" placeholder="Enter group name" style="width:300px; font-size: 15px;">
+		</div>
+		<button class="btn btn-success" onclick="Add_Group()" style="font-size: 20px;">Add Group</button>
+		<h3 class="color_white">TRENDING GROUPS</h3>
+	<div id="output">
+
+	</div>
+	</center>
+</div>
+<script src="LuvChat_room.js"></script>
+</body>
+</html>
