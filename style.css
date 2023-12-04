@@ -97,7 +97,7 @@ font-family: 'Satisfy', cursive;
 }
 
 h3,h4, h2{
-font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 #u1,#login_button{
@@ -111,4 +111,17 @@ font-family: 'Roboto Slab', serif;
 
 #mesg {
 	width:50%;
+}
+
+.disclamer{
+    font-size: 20px;
+}
+
+.footer{
+	bottom:0;
+	position:fixed;
+	background-color:dodgerblue;
+	color: white;
+	width: 100%;
+	font-size: 20px;
 }
